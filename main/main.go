@@ -1,7 +1,7 @@
 package main
 
 import(
-	"github.com/JiovaniLedesma/image_processing/image_processing"
+	"github.com/JiovaniLedesma/image_processing/img_processing"
 )
 
 func main() {
