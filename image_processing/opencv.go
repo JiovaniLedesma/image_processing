@@ -15,7 +15,7 @@ func OpenImage(path string) (image.Image, error) {
 		return nil, err
 	}
 	fi, _ := f.Stat()
-	fmt.Println(fi.Name())
+	fmt.Println("Imagen leída: ", fi.Name())
 	//defer f.Close()sss
 	img, format, err := image.Decode(f)
 	if err != nil {
