@@ -1,4 +1,4 @@
-package img_processing
+package image_processing
 
 import (
 	"errors"
