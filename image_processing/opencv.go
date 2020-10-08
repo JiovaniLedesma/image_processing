@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-func openImage(path string) (image.Image, error) {
+func OpenImage(path string) (image.Image, error) {
 	f, err := os.Open(path)
 	if err != nil {
 		fmt.Println(err)

@@ -1,11 +1,11 @@
 package main
 
 import(
-	"github.com/JiovaniLedesma/image_processing/img_processing"
+	"github.com/JiovaniLedesma/image_processing/image_processing"
 )
 
 func main() {
-	img, err := img_processing.openImage("/home/jiovani/Pictures/Wallpapers/abstract.png")
+	img, err := image_processing.openImage("/home/jiovani/Pictures/Wallpapers/abstract.png")
 	if err != nil {
 		return
 	}
