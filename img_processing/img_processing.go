@@ -1,4 +1,4 @@
-package image_processing
+package img_processing
 
 import (
 	"errors"
@@ -19,6 +19,7 @@ func openImage(path string) (image.Image, error) {
 	//defer f.Close()sss
 	img, format, err := image.Decode(f)
 	if err != nil {
+		fmt.Println("Decoding error:", err.Error())
 		return nil, err
 	}
 	if format != "jpeg" {

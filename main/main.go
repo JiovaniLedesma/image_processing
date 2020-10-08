@@ -5,7 +5,7 @@ import(
 )
 
 func main() {
-	img, err := image_processing.openImage("/home/jiovani/Pictures/Wallpapers/abstract.png")
+	img, err := img_processing.openImage("/home/jiovani/Pictures/Wallpapers/abstract.png")
 	if err != nil {
 		return
 	}
